@@ -18,7 +18,8 @@ metadata:
   name: promote-demo
   labels:
     app: demo
-    gitops-dev-version: a
+    gitops-dev-version: b
+    better: you-know-it
 spec:
   selector:
     matchLabels:
